@@ -1,3 +1,8 @@
+# Original Author
+
+(https://github.com/hjalti/mossum)
+
+
 Mossum
 ======
 
@@ -20,8 +25,13 @@ Installation
 
 The script can be installed via `pip`:
 
+```bash
+pip3 install git+https://github.com/CMPT-295-SFU/mossum@master
+
 ```
-pip3 install git+https://github.com/hjalti/mossum@master
+
+```
+
 ```
 
 Please note that this project is only developed and tested using Python 3.
