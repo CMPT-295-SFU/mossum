@@ -206,10 +206,10 @@ def get_results(moss_url):
 
     ps = soup('p')
     name = None
-    if len(ps) >= 2:
-        name = ps[2].text.strip()
-    if not name:
-        name = 'moss_%s' % date_str()
+#    if len(ps) >= 2:
+#        name = ps[2].text.strip()
+#    if not name:
+    name = 'moss_%s' % date_str()
 
     matches = []
 
